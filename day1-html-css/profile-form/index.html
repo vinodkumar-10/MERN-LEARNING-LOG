@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>My Profile Form</h1>
+  </header>
+
+  <main>
+    <!-- Form Section -->
+    <section class="form-section">
+      <h3>Fill Your Details</h3>
+      <form>
+        <label for="fullname">Full Name: </label>
+        <input type="text" id="fullname" name="fullname" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label>Gender:</label>
+        <div class="gender-group">
+          <label><input type="radio" name="gender" value="male" /> Male</label>
+          <label><input type="radio" name="gender" value="female" /> Female</label>
+          <label><input type="radio" name="gender" value="other" /> Other</label>
+        </div>
+
+        <label>Skills:</label>
+        <div class="skills-group">
+          <label><input type="checkbox" name="skills" value="html" /> HTML</label>
+          <label><input type="checkbox" name="skills" value="css" /> CSS</label>
+          <label><input type="checkbox" name="skills" value="js" /> JavaScript</label>
+        </div>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Flexbox Section -->
+    <section class="flex-section">
+      <h3>My Interests (Flexbox Layout)</h3>
+      <div class="flex-container">
+        <div class="flex-item">Web Development</div>
+        <div class="flex-item">UI Design</div>
+        <div class="flex-item">Open Source</div>
+      </div>
+    </section>
+
+    <!-- Grid Section -->
+    <section class="grid-section">
+      <h3>Favorite Tools (Grid Layout)</h3>
+      <div class="grid-container">
+        <div class="grid-item">VSCode</div>
+        <div class="grid-item">GitHub</div>
+        <div class="grid-item">Intellj IDEA</div>
+        <div class="grid-item">Chrome </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>

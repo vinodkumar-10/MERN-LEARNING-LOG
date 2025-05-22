@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Day 1 - HTML & CSS Practice</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+  <h1>My HTML & CSS Learning Log</h1>
+  <h2>Day 1: HTML Headings and Forms</h2>
+  <h3>Day 1: HTML Headings and Forms</h3>
+  <h4>Day 1: HTML Headings and Forms</h4>
+  <h5>Day 1: HTML Headings and Forms</h5>
+  <h6>Day 1: HTML Headings and Forms</h6>
+</header>
+
+<main>
+  <p>Today I’m learning the basics of HTML and CSS including forms, layout with flexbox and grid.</p>
+  
+<section>
+  <h3>Contact Me</h3>
+  <form>
+    <label for="name">Name:</label><br />
+    <input type="text" id="name" name="name" required /><br /><br />        <!-- required makes fields mandatory -->
+
+    <label for="email">Email:</label><br />
+    <input type="email" id="email" name="email" required /><br /><br />
+
+    <label for="message">Message:</label><br />
+    <textarea id="message" name="message"></textarea><br /><br />
+
+    <button type="submit">Send</button>
+  </form>
+</section>
+<section class="flex-layout">
+  <div class="box">Flex Item 1</div>
+  <div class="box">Flex Item 2</div>
+  <div class="box">Flex Item 3</div>
+</section>
+<section class="grid-layout">
+  <div class="grid-box">Grid 1</div>
+  <div class="grid-box">Grid 2</div>
+  <div class="grid-box">Grid 3</div>
+  <div class="grid-box">Grid 4</div>
+</section>
+
+ </main>
+
+
+</body>
+</html>
